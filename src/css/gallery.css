@@ -108,3 +108,52 @@ body{
         line-height: 1.25rem;
         padding: 0.5rem 0.75rem;
 }
+
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background: rgba(64, 50, 115, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.editor-btn {
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--button-color);
+    width: 90px;
+    height: 20%;
+    color: var(--main-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editor-link {
+    color: var(--main-color);
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    top: 60px;
+    position: absolute;
+    left: 20px;
+    background: #311e48;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
