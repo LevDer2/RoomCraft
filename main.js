@@ -213,7 +213,7 @@ const translations = {
     nav.classList.toggle("open");
   });
 
-  
+
   // LoadLogo
   window.addEventListener('load', function() {
     // Затримка для демонстрації (можна прибрати)
@@ -227,3 +227,14 @@ const translations = {
         });
     }, 1500); // 1.5 секунди - час показу прелоадера
 });
+
+// Генерація унікального ID для проекту
+// function generateProjectId() {
+//   return 'project-' + Math.random().toString(36).substr(2, 9);
+// }
+
+// // Обробник кнопки "Створити проект"
+// document.getElementById('create-project-btn').addEventListener('click', () => {
+//   const projectId = generateProjectId();
+//   window.location.href = `../src/partials/create-room.html?id=${projectId}`;
+// });
